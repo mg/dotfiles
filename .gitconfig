@@ -31,3 +31,4 @@
 	b = branch
 	p = push
 	d = diff
+	a = add
