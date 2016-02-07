@@ -1,0 +1,32 @@
+[user]
+	name = Magnús Örn Gylfason
+	email = magnus.gylfason@gmail.com
+[core]
+	excludesfile = /Users/magnusorngylfason/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[push]
+	default = simple
+[alias]
+	c = commit
+	s = status
+	ch = checkout
+	b = branch
+	p = push
