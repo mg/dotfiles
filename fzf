@@ -1,0 +1,10 @@
+https://github.com/junegunn/fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install 
+
+# fd
+https://github.com/sharkdp/fd
+
+# bat
+https://github.com/sharkdp/bat

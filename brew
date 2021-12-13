@@ -1,0 +1,8 @@
+# brew leaves > brew
+# xargs brew install < brew
+bat
+fd
+fzf
+gradle
+imagemagick
+nvm
